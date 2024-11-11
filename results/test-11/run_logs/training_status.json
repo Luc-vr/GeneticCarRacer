@@ -1,0 +1,38 @@
+{
+    "Drive": {
+        "checkpoints": [
+            {
+                "steps": 499976,
+                "file_path": "results\\test-11\\Drive\\Drive-499976.onnx",
+                "reward": null,
+                "creation_time": 1698593724.807367,
+                "auxillary_file_paths": [
+                    "results\\test-11\\Drive\\Drive-499976.pt"
+                ]
+            },
+            {
+                "steps": 500040,
+                "file_path": "results\\test-11\\Drive\\Drive-500040.onnx",
+                "reward": null,
+                "creation_time": 1698593724.8495927,
+                "auxillary_file_paths": [
+                    "results\\test-11\\Drive\\Drive-500040.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500040,
+            "file_path": "results\\test-11\\Drive.onnx",
+            "reward": null,
+            "creation_time": 1698593724.8495927,
+            "auxillary_file_paths": [
+                "results\\test-11\\Drive\\Drive-500040.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.1.0+cpu"
+    }
+}
