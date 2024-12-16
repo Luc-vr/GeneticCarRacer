@@ -509,7 +509,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6558350183437944266}
   - component: {fileID: 6558350183437944271}
-  - component: {fileID: 1832779283529785013}
   - component: {fileID: 6558350183437944264}
   m_Layer: 3
   m_Name: ParticleSystemSmokeLeftWheel
@@ -5328,18 +5327,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!114 &1832779283529785013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6558350183437944267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fe20d1d0b5156747b54b606701df436, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!199 &6558350183437944264
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5422,7 +5409,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6558350183901354371}
   - component: {fileID: 6558350183901354370}
-  - component: {fileID: 1488846977434888549}
   m_Layer: 3
   m_Name: WheelTrailerRendererLeftWheel
   m_TagString: Untagged
@@ -5544,18 +5530,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &1488846977434888549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6558350183901354364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d31985078ef51d5469eba5f39c0a6365, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6558350184171321422
 GameObject:
   m_ObjectHideFlags: 0
@@ -5566,7 +5540,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6558350184171321421}
   - component: {fileID: 6558350184171321427}
-  - component: {fileID: 8189378268629876577}
   m_Layer: 3
   m_Name: WheelTrailerRendererRightWheel
   m_TagString: Untagged
@@ -5688,18 +5661,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &8189378268629876577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6558350184171321422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d31985078ef51d5469eba5f39c0a6365, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6558350185083141114
 GameObject:
   m_ObjectHideFlags: 0
@@ -5903,7 +5864,6 @@ GameObject:
   - component: {fileID: 6558350185460239945}
   - component: {fileID: 6558350185460239950}
   - component: {fileID: 6558350185460239951}
-  - component: {fileID: 8458712784080437285}
   m_Layer: 3
   m_Name: ParticleSystemSmokeRightWheel
   m_TagString: Untagged
@@ -10793,15 +10753,3 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &8458712784080437285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6558350185460239946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fe20d1d0b5156747b54b606701df436, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
