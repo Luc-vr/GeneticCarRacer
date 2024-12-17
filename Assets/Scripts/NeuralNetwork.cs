@@ -70,11 +70,10 @@ namespace Assets.Scripts
                 output[i] = layerBiases[i] + DotProduct(input, layerWeights, i * input.Length);
             }
 
-            // Apply activation function (e.g., ReLU)
+            // Activation function
             for (int i = 0; i < outputSize; i++)
             {
-                //output[i] = Math.Max(0, output[i]); // ReLU activation
-                output[i] = (float)Math.Tanh(output[i]);
+                output[i] = (float)Math.Tanh(output[i]); //TanH
             }
 
             return output;
